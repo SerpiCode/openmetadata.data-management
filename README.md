@@ -1,4 +1,4 @@
-# Ingestão de dados com OpenMetadata, Apache Airflow e Trino
+# Ingestão de dados com OpenMetadata
 
 ## 📝 Descrição do Projeto
 Este repositório contém um projeto que demonstra o uso de **OpenMetadata** para gestão de metadados, **Apache Airflow** para orquestração de pipelines, e **Trino** para execução de consultas distribuídas em grandes volumes de dados. 
