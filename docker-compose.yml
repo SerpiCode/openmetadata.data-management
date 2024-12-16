@@ -505,7 +505,8 @@ services:
 
   ingestion:
     container_name: openmetadata_ingestion
-    image: docker.getcollate.io/openmetadata/ingestion:1.5.5
+    build:
+      context: airflow
     depends_on:
       elasticsearch:
         condition: service_started

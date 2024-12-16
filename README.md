@@ -19,6 +19,9 @@ openmetadata.data-management/
 │   ├── catalog/
 │   │   ├── mysql.properties    # Propriedades do banco MySQL
 │   ├── Dockerfile              # Dockerfile para adicionar o MySQL ao catálogo do Trino
+├── airflow/
+│   ├── airflow.cfg             # Arquivo airflow.cfg modificado
+│   ├── Dockerfile              # Dockerfile para substituir o arquivo airflow.cfg
 ├── docker-compose.yml          # Configuração dos containers Docker
 └── README.md                   # Documentação do projeto
 ```
